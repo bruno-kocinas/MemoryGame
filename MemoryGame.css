@@ -1,0 +1,69 @@
+body {
+	background-color: blue;
+}
+.none {
+	display: none;
+}
+.init {
+	border: 3px solid black;
+	background-color: white;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+#userName {
+	display: block;
+	margin: 25px;
+	border: 1px solid;
+    height: 25px;
+    width: 225px;
+    text-align: center;
+}
+#init button {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px 0 25px 5px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 10%;
+}
+table {
+	border: 3px solid black;
+}
+tr {
+	height: 150px;
+}
+td {
+	width: 150px;
+	background-color: black;
+	border: 3px solid white;
+}
+td div {
+	height: 150px;
+	width: 150px;
+}
+.hidden {
+	opacity: 0;
+}
+.img1 {
+	background-color: blue;
+}
+.img2 {
+	background-color: red;
+}
+.img3 {
+	background-color: green;
+}
+.img4 {
+	background-color: yellow;
+}
+.img5 {
+	background-color: orange;
+}
+.img6 {
+	background-color: purple;
+}
