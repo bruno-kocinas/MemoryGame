@@ -4,11 +4,11 @@ document.getElementById("r3c4").addEventListener("click", function(e) {
 	MemoryGame.defSize(e);
 	MemoryGame.start();
 });
-document.getElementById("r4c6").addEventListener("click", function(e) {
+document.getElementById("r3c6").addEventListener("click", function(e) {
 	MemoryGame.defSize(e);
 	MemoryGame.start();
 });
-document.getElementById("r6c6").addEventListener("click", function(e) {
+document.getElementById("r4c6").addEventListener("click", function(e) {
 	MemoryGame.defSize(e);
 	MemoryGame.start();
 });
@@ -20,6 +20,9 @@ MemoryGame.defSize = function(e) {
 	MemoryGame.rows = parseInt(e.target.id.charAt(1));
 	MemoryGame.cols = parseInt(e.target.id.charAt(3));
 	MemoryGame.size = MemoryGame.rows*MemoryGame.cols;
+	if (MemoryGame.size == 24) {
+		document.getElementById("table").style.top = 0;
+	}
 }
 
 MemoryGame.start = function() {
@@ -124,4 +127,14 @@ MemoryGame.compareCard = function() {
 			MemoryGame.ClickedCards = [];
 		}, 1000);
 	}
+	if (MemoryGame.right == (MemoryGame.size/2)) {
+		MemoryGame.result();
+	}
 };
+
+MemoryGame.result = function() {
+	document.getElementById("play").addEventListener("click", function() {
+		location.reload();
+	});
+	document.getElementById("result").style.display = "inline-block";
+}

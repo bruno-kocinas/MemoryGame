@@ -1,5 +1,6 @@
 body {
-	background-color: blue;
+	background-image: url(./Images/background.jpg);
+	background-size: cover; 
 }
 .none {
 	display: none;
@@ -13,6 +14,19 @@ body {
 	transform: translate(-50%,-50%);
 	top: 50%;
 	left: 50%;
+}
+.result {
+	border: 3px solid black;
+	background-color: white;
+	text-align: center;
+	display: none;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+.result h1 {
+	padding: 25px;
 }
 #userName {
 	display: block;
@@ -31,16 +45,30 @@ body {
 	border: none;
 	border-radius: 10%;
 }
+#result button {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px 0 25px 5px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 10%;
+}
 table {
 	border: 3px solid black;
+	position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
 }
 tr {
 	height: 150px;
 }
 td {
 	width: 150px;
-	background-color: black;
-	border: 3px solid white;
+	background-image: url(./Images/cards.jpg);
+	background-size: cover;
+	border: 2px solid white;
 }
 td div {
 	height: 150px;
@@ -50,20 +78,86 @@ td div {
 	opacity: 0;
 }
 .img1 {
-	background-color: blue;
+	background-image: url(./Images/img1.jpg);
+	background-size: cover;
 }
 .img2 {
-	background-color: red;
+	background-image: url(./Images/img2.jpg);
+	background-size: cover;
 }
 .img3 {
-	background-color: green;
+	background-image: url(./Images/img3.jpg);
+	background-size: cover;
 }
 .img4 {
-	background-color: yellow;
+	background-image: url(./Images/img4.jpg);
+	background-size: cover;
 }
 .img5 {
-	background-color: orange;
+	background-image: url(./Images/img5.jpg);
+	background-size: cover;
 }
 .img6 {
-	background-color: purple;
+	background-image: url(./Images/img6.jpg);
+	background-size: cover;
+}
+.img7 {
+	background-image: url(./Images/img7.jpg);
+	background-size: cover;
+}
+.img8 {
+	background-image: url(./Images/img8.jpg);
+	background-size: cover;
+}
+.img9 {
+	background-image: url(./Images/img9.jpg);
+	background-size: cover;
+}
+.img10 {
+	background-image: url(./Images/img10.jpg);
+	background-size: cover;
+}
+.img11 {
+	background-image: url(./Images/img11.jpg);
+	background-size: cover;
+}
+.img12 {
+	background-image: url(./Images/img12.jpg);
+	background-size: cover;
+}
+@media screen and (max-width: 1000px) {
+	tr {
+		height: 100px;
+	}
+	td {
+		width: 100px;
+	}
+	td div {
+		height: 100px;
+		width: 100px;
+	}
+}
+@media screen and (max-width: 600px) {
+	tr {
+		height: 80px;
+	}
+	td {
+		width: 80px;
+	}
+	td div {
+		height: 80px;
+		width: 80px;
+	}
+}
+@media screen and (max-width: 300px) {
+	tr {
+		height: 50px;
+	}
+	td {
+		width: 50px;
+	}
+	td div {
+		height: 50px;
+		width: 50px;
+	}
 }
