@@ -10,7 +10,7 @@ from bottle import default_app, request, route, response, get
 
 DEBUG = os.environ.get("DEBUG")
 
-bottle.debug(False)
+bottle.debug(True)
 
 @get('/')
 def index():
