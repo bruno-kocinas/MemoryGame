@@ -73,14 +73,12 @@ MemoryGame.genCards =  function(size) {
 	for (var i = 1; i < half + 1; i++) {
 		var card1 = document.createElement("div");
 		var card2 = document.createElement("div");
-		card1.classList.add("img" + i);
+		card1.classList.add("img" + i, "hidden");
 		card1.name = "img" + i;
 		card1.id = "c" + i;
-		card1.classList.add("hidden");
-		card2.classList.add("img" + i);
+		card2.classList.add("img" + i, "hidden");
 		card2.name = "img" + i;
 		card2.id = "c" + parseInt(half + i);
-		card2.classList.add("hidden");
 		card1.addEventListener("click", MemoryGame.clickedCheck);
 		card2.addEventListener("click", MemoryGame.clickedCheck);
 		MemoryGame.cards.push(card1);
