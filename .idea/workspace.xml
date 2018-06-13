@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00badc77-02be-44a5-83c5-b8f3e21c4e0f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MemoryGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/cards.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/cards.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/MemoryGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/MemoryGame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +16,8 @@
       <file leaf-file-name="MemoryGame.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MemoryGame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -176,8 +160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MemoryGame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
